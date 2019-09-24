@@ -4,7 +4,9 @@ import { amber, blue } from '@material-ui/core/colors';
 // @ts-ignore: ThemeOptions type does match
 const theme = createMuiTheme({
     palette: {
-        primary: blue[800],
-        secondary: amber[700],
+        primary: blue,
+        secondary: amber
     }
-})
+});
+
+export default theme;

@@ -1,12 +1,16 @@
 import React from 'react';
+import {
+	CssBaseline
+} from '@material-ui/core';
 
 import Navigation from './Components/Navigation';
 
 function App() {
 	return (
-		<div className="d-flex justify-content-center">
+		<React.Fragment>
+			<CssBaseline />
 			<Navigation />
-    	</div>
+    	</React.Fragment>
   	);
 }
 

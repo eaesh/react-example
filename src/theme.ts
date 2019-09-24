@@ -6,6 +6,11 @@ const theme = createMuiTheme({
     palette: {
         primary: blue,
         secondary: amber
+    },
+    typography: {
+        fontFamily: [
+            'Petit Formal'
+        ].join(','),
     }
 });
 

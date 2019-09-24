@@ -13,6 +13,8 @@ const styles = (theme: Theme) => ({
         flexGrow: 1,
     },
     title: {
+        color: theme.palette.primary.contrastText,
+        fontFamily: theme.typography.fontFamily,
         flexGrow: 1,
     }
 });
@@ -24,13 +26,11 @@ class Navigation extends React.Component<IProps> {
     
     render() {
         const { classes } = this.props;
-
+        
         return (
             <AppBar position='static' className={classes.root}>
                 <Toolbar>
-                    <Typography variant='h4' className={classes.title}>
-                        <Box fontFamily='Petit Formal'>Artistic Kreations</Box>
-                    </Typography>
+                    <Typography variant='h4' className={classes.title} color='inherit'>Artistic Kreations</Typography> 
                 </Toolbar>
             </AppBar>
         )

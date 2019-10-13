@@ -30,7 +30,7 @@ class Navigation extends React.Component<IProps> {
         return (
             <AppBar position='static' className={classes.root}>
                 <Toolbar>
-                    <Typography variant='h4' className={classes.title} color='inherit'>Artistic Kreations</Typography> 
+                    <Typography variant='h4' className={classes.title} color='inherit'>React Example</Typography> 
                 </Toolbar>
             </AppBar>
         )

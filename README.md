@@ -6,7 +6,12 @@ Simple ReactJS Application hosted via AWS S3 at [http://react-example-bucket.s3-
 
 [Place Holder]
 
+
 ## Local Development
+
+### `npm install`
+
+Installs all required dependencies to run the app
 
 ### `npm start`
 
@@ -33,6 +38,29 @@ Builds the app and stores into ***/build*** directory
 Uploads build directly to s3 bucket using AWS CLI
 
 
+## Project Creation
+
+Process by which to create a brand new react application and install all necessary dependencies
+
+### `npx create-react-app my-app --typescript`
+
+Creates react app my-app with typescript
+
+### npm install @material-ui/core @types/material-ui
+
+Installs [Material-UI Framework](https://material-ui.com/)
+
+### npm install redux
+
+Installs [Redux](https://redux.js.org/)
+
+
 ## Built With
 
+### React
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### TypeScript
+
+[https://create-react-app.dev/docs/adding-typescript](https://create-react-app.dev/docs/adding-typescript)

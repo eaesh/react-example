@@ -1,5 +1,6 @@
 {
   "name": "react-example",
+  "homepage": "https://eshansaran.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
